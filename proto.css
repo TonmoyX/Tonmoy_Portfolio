@@ -1,5 +1,12 @@
 body{
     background-color: rgba(0, 0, 0, 0.843);
+    box-sizing: border-box;
+}
+@media  only screen and (max-width:600px) {
+    .pic{
+   display: none;
+    }
+    
 }
 .box{
     padding-left: 10%;
