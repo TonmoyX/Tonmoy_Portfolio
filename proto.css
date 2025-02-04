@@ -2,7 +2,7 @@ body{
     background-color: rgba(0, 0, 0, 0.843);
     box-sizing: border-box;
 }
-@media  only screen and (max-width:420px) {
+@media  only screen and (max-width:450px) {
     .box{
         padding-left: 8%;
         display: inline-block;
@@ -276,7 +276,7 @@ body{
 
 }
 
-@media  only screen and (min-width:450px) {
+@media  only screen and (min-width:451px) {
 .box{
     padding-left: 10%;
     display: inline-block;
