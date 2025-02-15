@@ -2,6 +2,24 @@ body{
     background-color: rgba(0, 0, 0, 0.843);
     box-sizing: border-box;
 }
+.bottom{
+    text-align: center;
+}
+.bottom ul{
+    list-style: none;
+}
+.bottom ul li{
+    display: inline-block;
+}
+.bottom ul li a{
+padding: 3px 20px;
+display: inline-block;
+background-color: black;
+border-radius: 10px;
+}
+.bottom ul li a:hover{
+background-color: rgb(46, 73, 78);
+}
 @media  only screen and (max-width:450px) {
     .box{
         padding-left: 8%;
@@ -12,7 +30,7 @@ body{
         width: 90%;
         justify-content: space-between;
     }
-      
+ 
     .pic{
    display: none;
     }
@@ -78,9 +96,7 @@ body{
         font-size: 80%;
         padding-left:5%;
     }
-    .bottom{ 
-        text-align: center;
-    }
+
     .sklll{
         color: white;
         padding-left:1%;
@@ -276,7 +292,7 @@ body{
 
 }
 
-@media  only screen and (min-width:451px) {
+@media  only screen and (min-width:450px) {
 .box{
     padding-left: 10%;
     display: inline-block;
@@ -355,9 +371,7 @@ padding-left: 3%;
     font-size: 150%;
     padding-left:5%;
 }
-.bottom{ 
-    text-align: center;
-}
+
 .sklll{
     color: white;
     padding-left:1%;
