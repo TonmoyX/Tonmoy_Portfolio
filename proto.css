@@ -67,6 +67,12 @@ background-color: rgb(46, 73, 78);
             font-size: 20px;
             padding-left: 3%;
         }
+    .up{
+    position: fixed;  
+    left:90%; 
+    top:90%; 
+    width: 30px;
+}
     .skl{
         color: white;
         text-align: center;
@@ -341,6 +347,12 @@ padding-left: 3%;
     .fa-discord{
         font-size: 60px;
         padding-left: 3%;
+    }
+     .up{
+        position: fixed;  
+        left:95%; 
+        top:90%; 
+        width: 50px;
     }
 .skl{
     color: white;
