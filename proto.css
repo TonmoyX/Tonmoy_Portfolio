@@ -67,11 +67,35 @@ background-color: rgb(46, 73, 78);
             font-size: 20px;
             padding-left: 3%;
         }
-    .up{
-    position: fixed;  
+.up{ 
     left:90%; 
     top:90%; 
-    width: 30px;
+    width: 20px;
+    animation-name:appear;
+    animation-timeline:scroll(y);
+}
+@keyframes appear {
+    0%{
+        opacity: 0;
+        display: none;
+        position:fixed;
+    }
+       3%{
+        opacity: 0;
+        display: none;
+       }  
+       3.5%{
+        opacity: 1;
+        display: block;
+       }
+
+        100%{
+            opacity: 1;
+            display: block;
+            position:fixed;
+        }
+
+
 }
     .skl{
         color: white;
@@ -348,11 +372,35 @@ padding-left: 3%;
         font-size: 60px;
         padding-left: 3%;
     }
-     .up{
-        position: fixed;  
+    .up{
         left:95%; 
-        top:90%; 
-        width: 50px;
+        top:85%; 
+        width: 40px;
+        animation-name:appear;
+        animation-timeline:scroll(y);
+    }
+    @keyframes appear {
+        0%{
+            opacity: 1;
+            display: none;
+            position:fixed;
+        }
+           3%{
+            opacity: 1;
+            display: none;
+           }  
+           3.5%{
+            opacity: 1;
+            display: block;
+           }
+    
+            100%{
+                opacity: 1;
+                display: block;
+                position:fixed;
+            }
+    
+    
     }
 .skl{
     color: white;
