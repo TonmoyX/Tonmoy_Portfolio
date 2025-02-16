@@ -114,8 +114,7 @@ box-shadow: 1px 1px 10px rgb(128, 128, 128);
         display: flex;
     }
     .imgcode{
-        padding-left: 10%;
-        border-radius: 10%;
+        border-radius: 30px;
         width: 35%;
     }
     .skl{
@@ -416,14 +415,13 @@ padding-left: 3%;
     transition: 3s;
 }
 .skill{
-    padding-left: 5%;
+    padding-left: 10%;
     height: 60%;
     width: 90%;
     display: flex;
 }
-.imgcode{
-    padding-left: 10%;
-    border-radius: 10%;
+.imgcode{ 
+    border-radius: 50px;
     width: 35%;
 }
 .skl{
