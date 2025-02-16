@@ -18,8 +18,8 @@ background-color: black;
 border-radius: 10px;
 }
 .bottom ul li a:hover{
-background-color:	rgb(0, 128, 255);
-box-shadow: 1px 1px 10px 	rgb(128, 128, 128);
+background-color: rgb(5, 151, 204);
+box-shadow: 1px 1px 10px rgb(128, 128, 128);
 }
 @media  only screen and (max-width:450px) {
     .box{
